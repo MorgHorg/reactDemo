@@ -8,6 +8,18 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
          Mikes site built with ReactJS
       </header>
+      <navigator className="App-navigation" >
+        <button className="App-navbutton">
+          Home
+        </button>
+        <button className="App-navbutton">
+          About me
+        </button>
+        <button className="App-navbutton">
+          Other links
+        </button>
+        
+      </navigator>
       
     </div>
   );
